@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "dgSpecHash": "jf/rrC7BAD+r7cxHqVXwWBu4Nk8PQvBPVZq9xc/eoo9UHmxerzZ3mxHDZmO21S0pT+vD6YkSsl4qYaKU53dtKg==",
+  "success": true,
+  "projectFilePath": "/Users/siddhantkalgutkar/Documents/snyk-rce/dotnet-hello-world/MyApp/MyApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}
