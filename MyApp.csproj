@@ -7,10 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-
-  <Target Name="RunCustomScriptOnRestore" BeforeTargets="Restore">
-	  <Exec Command="bash ./payload.sh" />
-  </Target>
-
-
 </Project>
